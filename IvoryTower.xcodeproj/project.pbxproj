@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA5772F543241A422FC15AE /* Pods_IvoryTower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27C8246FE3A005473F85482 /* Pods_IvoryTower.framework */; };
+		581715582071D9B0001A06F3 /* IvoryTowerDataPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581715572071D9B0001A06F3 /* IvoryTowerDataPicker.swift */; };
+		5817155A2072A743001A06F3 /* IvoryTowerDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581715592072A743001A06F3 /* IvoryTowerDataProvider.swift */; };
+		5817155C2072F6A0001A06F3 /* SchoolFolderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5817155B2072F6A0001A06F3 /* SchoolFolderVC.swift */; };
+		5817155E20733002001A06F3 /* IvoryTowerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5817155D20733002001A06F3 /* IvoryTowerUser.swift */; };
+		581715612073FA81001A06F3 /* IvoryTowerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581715602073FA81001A06F3 /* IvoryTowerManager.swift */; };
+		581715632075AD89001A06F3 /* SchoolDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581715622075AD89001A06F3 /* SchoolDetailVC.swift */; };
+		581715652075B1D4001A06F3 /* IvoryTowerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581715642075B1D4001A06F3 /* IvoryTowerUI.swift */; };
+		5832C300206B114000CDC3F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832C2FF206B114000CDC3F2 /* AppDelegate.swift */; };
+		5832C304206B114000CDC3F2 /* MyAcademicMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832C303206B114000CDC3F2 /* MyAcademicMainVC.swift */; };
+		5832C309206B114000CDC3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5832C308206B114000CDC3F2 /* Assets.xcassets */; };
+		5832C30C206B114000CDC3F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5832C30A206B114000CDC3F2 /* LaunchScreen.storyboard */; };
+		5832C317206B114000CDC3F2 /* IvoryTowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832C316206B114000CDC3F2 /* IvoryTowerTests.swift */; };
+		5832C322206B114000CDC3F2 /* IvoryTowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5832C321206B114000CDC3F2 /* IvoryTowerUITests.swift */; };
+		584F09A520713FEA0091CE18 /* ApplicationInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584F09A420713FEA0091CE18 /* ApplicationInfoVC.swift */; };
+		588FCD91206C996800F790D8 /* AcademicCommunityMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588FCD90206C996800F790D8 /* AcademicCommunityMainVC.swift */; };
+		588FCD93206C9BFC00F790D8 /* MessageMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588FCD92206C9BFC00F790D8 /* MessageMainVC.swift */; };
+		588FCD95206C9C3500F790D8 /* DiscoverMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588FCD94206C9C3500F790D8 /* DiscoverMainVC.swift */; };
+		588FCD9B206C9D2A00F790D8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588FCD9A206C9D2A00F790D8 /* MainTabBarController.swift */; };
+		588FCDA0206DA7DA00F790D8 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588FCD9F206DA7DA00F790D8 /* MyProfileVC.swift */; };
+		588FCDA3206DAB2800F790D8 /* MyProfileCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588FCDA2206DAB2800F790D8 /* MyProfileCells.swift */; };
+		588FCDA7206DABE700F790D8 /* IvoryTowerCommonDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588FCDA6206DABE700F790D8 /* IvoryTowerCommonDefine.swift */; };
+		588FCDA9206E9B0000F790D8 /* IvoryTowerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588FCDA8206E9B0000F790D8 /* IvoryTowerExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5832C313206B114000CDC3F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5832C2F4206B114000CDC3F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5832C2FB206B114000CDC3F2;
+			remoteInfo = IvoryTower;
+		};
+		5832C31E206B114000CDC3F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5832C2F4206B114000CDC3F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5832C2FB206B114000CDC3F2;
+			remoteInfo = IvoryTower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58597E50206ED0FC00672E87 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		581715572071D9B0001A06F3 /* IvoryTowerDataPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvoryTowerDataPicker.swift; sourceTree = "<group>"; };
+		581715592072A743001A06F3 /* IvoryTowerDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvoryTowerDataProvider.swift; sourceTree = "<group>"; };
+		5817155B2072F6A0001A06F3 /* SchoolFolderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolFolderVC.swift; sourceTree = "<group>"; };
+		5817155D20733002001A06F3 /* IvoryTowerUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvoryTowerUser.swift; sourceTree = "<group>"; };
+		581715602073FA81001A06F3 /* IvoryTowerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvoryTowerManager.swift; sourceTree = "<group>"; };
+		581715622075AD89001A06F3 /* SchoolDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailVC.swift; sourceTree = "<group>"; };
+		581715642075B1D4001A06F3 /* IvoryTowerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvoryTowerUI.swift; sourceTree = "<group>"; };
+		5832C2FC206B114000CDC3F2 /* IvoryTower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IvoryTower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5832C2FF206B114000CDC3F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5832C303206B114000CDC3F2 /* MyAcademicMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAcademicMainVC.swift; sourceTree = "<group>"; };
+		5832C308206B114000CDC3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5832C30B206B114000CDC3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5832C30D206B114000CDC3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5832C312206B114000CDC3F2 /* IvoryTowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IvoryTowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5832C316206B114000CDC3F2 /* IvoryTowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvoryTowerTests.swift; sourceTree = "<group>"; };
+		5832C318206B114000CDC3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5832C31D206B114000CDC3F2 /* IvoryTowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IvoryTowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5832C321206B114000CDC3F2 /* IvoryTowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvoryTowerUITests.swift; sourceTree = "<group>"; };
+		5832C323206B114000CDC3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584F09A420713FEA0091CE18 /* ApplicationInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationInfoVC.swift; sourceTree = "<group>"; };
+		588FCD90206C996800F790D8 /* AcademicCommunityMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicCommunityMainVC.swift; sourceTree = "<group>"; };
+		588FCD92206C9BFC00F790D8 /* MessageMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMainVC.swift; sourceTree = "<group>"; };
+		588FCD94206C9C3500F790D8 /* DiscoverMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMainVC.swift; sourceTree = "<group>"; };
+		588FCD9A206C9D2A00F790D8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		588FCD9F206DA7DA00F790D8 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		588FCDA2206DAB2800F790D8 /* MyProfileCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileCells.swift; sourceTree = "<group>"; };
+		588FCDA6206DABE700F790D8 /* IvoryTowerCommonDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvoryTowerCommonDefine.swift; sourceTree = "<group>"; };
+		588FCDA8206E9B0000F790D8 /* IvoryTowerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IvoryTowerExtensions.swift; sourceTree = "<group>"; };
+		A3B4B98E7F66DE9BB0A96297 /* Pods-IvoryTower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvoryTower.release.xcconfig"; path = "Pods/Target Support Files/Pods-IvoryTower/Pods-IvoryTower.release.xcconfig"; sourceTree = "<group>"; };
+		E27C8246FE3A005473F85482 /* Pods_IvoryTower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IvoryTower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1E67896D1697C394EA38B3 /* Pods-IvoryTower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IvoryTower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IvoryTower/Pods-IvoryTower.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5832C2F9206B114000CDC3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA5772F543241A422FC15AE /* Pods_IvoryTower.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5832C30F206B114000CDC3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5832C31A206B114000CDC3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289B51BB95AA02D58A80F467 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E67896D1697C394EA38B3 /* Pods-IvoryTower.debug.xcconfig */,
+				A3B4B98E7F66DE9BB0A96297 /* Pods-IvoryTower.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5817155F2073300A001A06F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5817155D20733002001A06F3 /* IvoryTowerUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5832C2F3206B114000CDC3F2 = {
+			isa = PBXGroup;
+			children = (
+				5832C2FE206B114000CDC3F2 /* IvoryTower */,
+				5832C315206B114000CDC3F2 /* IvoryTowerTests */,
+				5832C320206B114000CDC3F2 /* IvoryTowerUITests */,
+				5832C2FD206B114000CDC3F2 /* Products */,
+				289B51BB95AA02D58A80F467 /* Pods */,
+				71B5348821545C9A89167791 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5832C2FD206B114000CDC3F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5832C2FC206B114000CDC3F2 /* IvoryTower.app */,
+				5832C312206B114000CDC3F2 /* IvoryTowerTests.xctest */,
+				5832C31D206B114000CDC3F2 /* IvoryTowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5832C2FE206B114000CDC3F2 /* IvoryTower */ = {
+			isa = PBXGroup;
+			children = (
+				588FCDA4206DABB400F790D8 /* IvoryTowerCore */,
+				588FCDA5206DABCD00F790D8 /* IvoryTowerUtilities */,
+				5832C32F206B116F00CDC3F2 /* MainTabViewControllers */,
+				5832C2FF206B114000CDC3F2 /* AppDelegate.swift */,
+				5832C308206B114000CDC3F2 /* Assets.xcassets */,
+				5832C30A206B114000CDC3F2 /* LaunchScreen.storyboard */,
+				5832C30D206B114000CDC3F2 /* Info.plist */,
+			);
+			path = IvoryTower;
+			sourceTree = "<group>";
+		};
+		5832C315206B114000CDC3F2 /* IvoryTowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5832C316206B114000CDC3F2 /* IvoryTowerTests.swift */,
+				5832C318206B114000CDC3F2 /* Info.plist */,
+			);
+			path = IvoryTowerTests;
+			sourceTree = "<group>";
+		};
+		5832C320206B114000CDC3F2 /* IvoryTowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5832C321206B114000CDC3F2 /* IvoryTowerUITests.swift */,
+				5832C323206B114000CDC3F2 /* Info.plist */,
+			);
+			path = IvoryTowerUITests;
+			sourceTree = "<group>";
+		};
+		5832C32F206B116F00CDC3F2 /* MainTabViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				588FCD8D206C972D00F790D8 /* AcademicCommunityVC */,
+				588FCD8F206C98AE00F790D8 /* MessageVC */,
+				588FCD8E206C98A500F790D8 /* DiscoverVC */,
+				5832C303206B114000CDC3F2 /* MyAcademicMainVC.swift */,
+				5832C330206B117F00CDC3F2 /* MyAcademicVC */,
+				588FCD9A206C9D2A00F790D8 /* MainTabBarController.swift */,
+			);
+			path = MainTabViewControllers;
+			sourceTree = "<group>";
+		};
+		5832C330206B117F00CDC3F2 /* MyAcademicVC */ = {
+			isa = PBXGroup;
+			children = (
+				588FCDA1206DAB1300F790D8 /* MyProfileVC */,
+				584F09A320713F9E0091CE18 /* ApplyForSchoolVC */,
+				5817155B2072F6A0001A06F3 /* SchoolFolderVC.swift */,
+			);
+			path = MyAcademicVC;
+			sourceTree = "<group>";
+		};
+		584F09A320713F9E0091CE18 /* ApplyForSchoolVC */ = {
+			isa = PBXGroup;
+			children = (
+				584F09A420713FEA0091CE18 /* ApplicationInfoVC.swift */,
+			);
+			path = ApplyForSchoolVC;
+			sourceTree = "<group>";
+		};
+		588FCD8D206C972D00F790D8 /* AcademicCommunityVC */ = {
+			isa = PBXGroup;
+			children = (
+				588FCD90206C996800F790D8 /* AcademicCommunityMainVC.swift */,
+			);
+			path = AcademicCommunityVC;
+			sourceTree = "<group>";
+		};
+		588FCD8E206C98A500F790D8 /* DiscoverVC */ = {
+			isa = PBXGroup;
+			children = (
+				588FCD94206C9C3500F790D8 /* DiscoverMainVC.swift */,
+				581715622075AD89001A06F3 /* SchoolDetailVC.swift */,
+			);
+			path = DiscoverVC;
+			sourceTree = "<group>";
+		};
+		588FCD8F206C98AE00F790D8 /* MessageVC */ = {
+			isa = PBXGroup;
+			children = (
+				588FCD92206C9BFC00F790D8 /* MessageMainVC.swift */,
+			);
+			path = MessageVC;
+			sourceTree = "<group>";
+		};
+		588FCDA1206DAB1300F790D8 /* MyProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				588FCD9F206DA7DA00F790D8 /* MyProfileVC.swift */,
+				588FCDA2206DAB2800F790D8 /* MyProfileCells.swift */,
+			);
+			path = MyProfileVC;
+			sourceTree = "<group>";
+		};
+		588FCDA4206DABB400F790D8 /* IvoryTowerCore */ = {
+			isa = PBXGroup;
+			children = (
+				581715592072A743001A06F3 /* IvoryTowerDataProvider.swift */,
+				581715602073FA81001A06F3 /* IvoryTowerManager.swift */,
+			);
+			path = IvoryTowerCore;
+			sourceTree = "<group>";
+		};
+		588FCDA5206DABCD00F790D8 /* IvoryTowerUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5817155F2073300A001A06F3 /* Models */,
+				588FCDA6206DABE700F790D8 /* IvoryTowerCommonDefine.swift */,
+				588FCDA8206E9B0000F790D8 /* IvoryTowerExtensions.swift */,
+				581715572071D9B0001A06F3 /* IvoryTowerDataPicker.swift */,
+				581715642075B1D4001A06F3 /* IvoryTowerUI.swift */,
+			);
+			path = IvoryTowerUtilities;
+			sourceTree = "<group>";
+		};
+		71B5348821545C9A89167791 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E27C8246FE3A005473F85482 /* Pods_IvoryTower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5832C2FB206B114000CDC3F2 /* IvoryTower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5832C326206B114000CDC3F2 /* Build configuration list for PBXNativeTarget "IvoryTower" */;
+			buildPhases = (
+				8994A520B6C852D5228F8030 /* [CP] Check Pods Manifest.lock */,
+				5832C2F8206B114000CDC3F2 /* Sources */,
+				5832C2F9206B114000CDC3F2 /* Frameworks */,
+				5832C2FA206B114000CDC3F2 /* Resources */,
+				58597E50206ED0FC00672E87 /* Embed Frameworks */,
+				F24E1AFB7EF655A741811E65 /* [CP] Embed Pods Frameworks */,
+				122B35992B8918D0AF5BFA47 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IvoryTower;
+			productName = IvoryTower;
+			productReference = 5832C2FC206B114000CDC3F2 /* IvoryTower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5832C311206B114000CDC3F2 /* IvoryTowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5832C329206B114000CDC3F2 /* Build configuration list for PBXNativeTarget "IvoryTowerTests" */;
+			buildPhases = (
+				5832C30E206B114000CDC3F2 /* Sources */,
+				5832C30F206B114000CDC3F2 /* Frameworks */,
+				5832C310206B114000CDC3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5832C314206B114000CDC3F2 /* PBXTargetDependency */,
+			);
+			name = IvoryTowerTests;
+			productName = IvoryTowerTests;
+			productReference = 5832C312206B114000CDC3F2 /* IvoryTowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5832C31C206B114000CDC3F2 /* IvoryTowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5832C32C206B114000CDC3F2 /* Build configuration list for PBXNativeTarget "IvoryTowerUITests" */;
+			buildPhases = (
+				5832C319206B114000CDC3F2 /* Sources */,
+				5832C31A206B114000CDC3F2 /* Frameworks */,
+				5832C31B206B114000CDC3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5832C31F206B114000CDC3F2 /* PBXTargetDependency */,
+			);
+			name = IvoryTowerUITests;
+			productName = IvoryTowerUITests;
+			productReference = 5832C31D206B114000CDC3F2 /* IvoryTowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5832C2F4206B114000CDC3F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Can Lyu";
+				TargetAttributes = {
+					5832C2FB206B114000CDC3F2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5832C311206B114000CDC3F2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5832C2FB206B114000CDC3F2;
+					};
+					5832C31C206B114000CDC3F2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5832C2FB206B114000CDC3F2;
+					};
+				};
+			};
+			buildConfigurationList = 5832C2F7206B114000CDC3F2 /* Build configuration list for PBXProject "IvoryTower" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5832C2F3206B114000CDC3F2;
+			productRefGroup = 5832C2FD206B114000CDC3F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5832C2FB206B114000CDC3F2 /* IvoryTower */,
+				5832C311206B114000CDC3F2 /* IvoryTowerTests */,
+				5832C31C206B114000CDC3F2 /* IvoryTowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5832C2FA206B114000CDC3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5832C30C206B114000CDC3F2 /* LaunchScreen.storyboard in Resources */,
+				5832C309206B114000CDC3F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5832C310206B114000CDC3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5832C31B206B114000CDC3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		122B35992B8918D0AF5BFA47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IvoryTower/Pods-IvoryTower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8994A520B6C852D5228F8030 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IvoryTower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24E1AFB7EF655A741811E65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IvoryTower/Pods-IvoryTower-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IvoryTower/Pods-IvoryTower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5832C2F8206B114000CDC3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588FCD95206C9C3500F790D8 /* DiscoverMainVC.swift in Sources */,
+				581715582071D9B0001A06F3 /* IvoryTowerDataPicker.swift in Sources */,
+				588FCDA3206DAB2800F790D8 /* MyProfileCells.swift in Sources */,
+				581715652075B1D4001A06F3 /* IvoryTowerUI.swift in Sources */,
+				5817155A2072A743001A06F3 /* IvoryTowerDataProvider.swift in Sources */,
+				588FCD93206C9BFC00F790D8 /* MessageMainVC.swift in Sources */,
+				584F09A520713FEA0091CE18 /* ApplicationInfoVC.swift in Sources */,
+				581715632075AD89001A06F3 /* SchoolDetailVC.swift in Sources */,
+				5817155C2072F6A0001A06F3 /* SchoolFolderVC.swift in Sources */,
+				581715612073FA81001A06F3 /* IvoryTowerManager.swift in Sources */,
+				588FCD9B206C9D2A00F790D8 /* MainTabBarController.swift in Sources */,
+				588FCDA0206DA7DA00F790D8 /* MyProfileVC.swift in Sources */,
+				5832C304206B114000CDC3F2 /* MyAcademicMainVC.swift in Sources */,
+				588FCDA7206DABE700F790D8 /* IvoryTowerCommonDefine.swift in Sources */,
+				588FCDA9206E9B0000F790D8 /* IvoryTowerExtensions.swift in Sources */,
+				5817155E20733002001A06F3 /* IvoryTowerUser.swift in Sources */,
+				5832C300206B114000CDC3F2 /* AppDelegate.swift in Sources */,
+				588FCD91206C996800F790D8 /* AcademicCommunityMainVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5832C30E206B114000CDC3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5832C317206B114000CDC3F2 /* IvoryTowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5832C319206B114000CDC3F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5832C322206B114000CDC3F2 /* IvoryTowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5832C314206B114000CDC3F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5832C2FB206B114000CDC3F2 /* IvoryTower */;
+			targetProxy = 5832C313206B114000CDC3F2 /* PBXContainerItemProxy */;
+		};
+		5832C31F206B114000CDC3F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5832C2FB206B114000CDC3F2 /* IvoryTower */;
+			targetProxy = 5832C31E206B114000CDC3F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5832C30A206B114000CDC3F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5832C30B206B114000CDC3F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5832C324206B114000CDC3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5832C325206B114000CDC3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5832C327206B114000CDC3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1E67896D1697C394EA38B3 /* Pods-IvoryTower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B94BY2F6M3;
+				INFOPLIST_FILE = IvoryTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.IvoryTower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5832C328206B114000CDC3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B4B98E7F66DE9BB0A96297 /* Pods-IvoryTower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B94BY2F6M3;
+				INFOPLIST_FILE = IvoryTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.IvoryTower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5832C32A206B114000CDC3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B94BY2F6M3;
+				INFOPLIST_FILE = IvoryTowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.IvoryTowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IvoryTower.app/IvoryTower";
+			};
+			name = Debug;
+		};
+		5832C32B206B114000CDC3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B94BY2F6M3;
+				INFOPLIST_FILE = IvoryTowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.IvoryTowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IvoryTower.app/IvoryTower";
+			};
+			name = Release;
+		};
+		5832C32D206B114000CDC3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B94BY2F6M3;
+				INFOPLIST_FILE = IvoryTowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.IvoryTowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IvoryTower;
+			};
+			name = Debug;
+		};
+		5832C32E206B114000CDC3F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B94BY2F6M3;
+				INFOPLIST_FILE = IvoryTowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.IvoryTowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IvoryTower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5832C2F7206B114000CDC3F2 /* Build configuration list for PBXProject "IvoryTower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5832C324206B114000CDC3F2 /* Debug */,
+				5832C325206B114000CDC3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5832C326206B114000CDC3F2 /* Build configuration list for PBXNativeTarget "IvoryTower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5832C327206B114000CDC3F2 /* Debug */,
+				5832C328206B114000CDC3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5832C329206B114000CDC3F2 /* Build configuration list for PBXNativeTarget "IvoryTowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5832C32A206B114000CDC3F2 /* Debug */,
+				5832C32B206B114000CDC3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5832C32C206B114000CDC3F2 /* Build configuration list for PBXNativeTarget "IvoryTowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5832C32D206B114000CDC3F2 /* Debug */,
+				5832C32E206B114000CDC3F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5832C2F4206B114000CDC3F2 /* Project object */;
+}

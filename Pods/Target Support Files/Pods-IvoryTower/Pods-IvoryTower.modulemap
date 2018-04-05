@@ -1,0 +1,6 @@
+framework module Pods_IvoryTower {
+  umbrella header "Pods-IvoryTower-umbrella.h"
+
+  export *
+  module * { export * }
+}
